@@ -1,0 +1,495 @@
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-logo">3R RENTCAR</div>
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-car-side"></i> 3R<span>RENTCAR</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#armada">Armada</a></li>
+                <li><a href="#harga">Harga</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle"><i class="fa-solid fa-moon"></i></button>
+                <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="splash-header">Rental Mobil Terpercaya, Nyaman & Harga Terbaik</h1>
+            <p>Solusi Rental Mobil Terpercaya untuk Semua Perjalanan Anda. Tersedia 17 Unit Mobil Berkualitas untuk Harian, Mingguan, Bulanan hingga Keperluan Pernikahan dan Wisata.</p>
+            <div class="hero-buttons">
+                <a href="#armada" class="btn btn-primary">Lihat Unit Mobil</a>
+                <a href="#booking" class="btn btn-outline">Booking Sekarang</a>
+                <a href="https://wa.me/6285255275733?text=Halo%203RENTCAR,%20saya%20ingin%20bertanya%20tentang%20rental%20mobil" class="btn btn-wa"><i class="fa-brands fa-whatsapp"></i> Hubungi WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section class="features reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="splash-header">Mengapa Memilih Kami?</h2>
+                <p>Pelayanan profesional dengan kualitas terbaik</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fa-solid fa-car feature-icon"></i>
+                    <h3>Armada Bersih</h3>
+                    <p>Unit selalu dibersihkan dan disanitasi sebelum disewakan.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-user-tie feature-icon"></i>
+                    <h3>Driver Berpengalaman</h3>
+                    <p>Driver ramah, sopan, dan menguasai rute dengan baik.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-tags feature-icon"></i>
+                    <h3>Harga Transparan</h3>
+                    <p>Tidak ada biaya tersembunyi. Harga yang Anda lihat adalah yang Anda bayar.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-key feature-icon"></i>
+                    <h3>Bisa Lepas Kunci</h3>
+                    <p>Syarat mudah untuk Anda yang ingin mengemudi sendiri.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-clock feature-icon"></i>
+                    <h3>Layanan 24 Jam</h3>
+                    <p>Siap melayani kebutuhan transportasi Anda kapan saja.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-plane-arrival feature-icon"></i>
+                    <h3>Antar Jemput</h3>
+                    <p>Layanan antar jemput mobil ke lokasi Anda (Bandara/Stasiun/Rumah).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Armada Section -->
+    <section id="armada" class="fleet reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="splash-header">Armada Kami</h2>
+                <p>Pilihan unit lengkap untuk segala kebutuhan</p>
+            </div>
+            <div class="fleet-grid" id="fleetGrid">
+                <!-- Cars will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Harga Section -->
+    <section id="harga" class="pricing reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="splash-header">Paket Harga</h2>
+                <p>Opsi fleksibel sesuai durasi sewa Anda</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Harian</h3>
+                    <div class="price-amount">Start 300rb</div>
+                    <ul class="price-features">
+                        <li><i class="fa-solid fa-check"></i> Mobil Terawat</li>
+                        <li><i class="fa-solid fa-check"></i> Asuransi All Risk</li>
+                        <li><i class="fa-solid fa-check"></i> Lepas Kunci / Driver</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-outline">Pilih Paket</a>
+                </div>
+                <div class="price-card featured">
+                    <div class="car-badge">Terlaris</div>
+                    <h3>Mingguan</h3>
+                    <div class="price-amount">Hemat 10%</div>
+                    <ul class="price-features">
+                        <li><i class="fa-solid fa-check"></i> Gratis Antar Jemput</li>
+                        <li><i class="fa-solid fa-check"></i> Prioritas Layanan</li>
+                        <li><i class="fa-solid fa-check"></i> Boleh Tukar Unit</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Pilih Paket</a>
+                </div>
+                <div class="price-card">
+                    <h3>Bulanan</h3>
+                    <div class="price-amount">Hemat 20%</div>
+                    <ul class="price-features">
+                        <li><i class="fa-solid fa-check"></i> Gratis Servis Ringan</li>
+                        <li><i class="fa-solid fa-check"></i> Harga Termasuk BBM (Opsional)</li>
+                        <li><i class="fa-solid fa-check"></i> Perpanjangan Mudah</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-outline">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="testimonials reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="splash-header">Kata Pelanggan</h2>
+                <p>Apa kata mereka tentang layanan 3R RENTCAR</p>
+            </div>
+            <div class="testimonial-grid" id="testimonialGrid">
+                <!-- Testimonials generated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="splash-header">Pertanyaan Umum</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Apakah bisa lepas kunci? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Ya, kami melayani sewa lepas kunci dengan syarat melampirkan KTP asli, SIM A yang masih berlaku, dan jaminan (KK/Paspor/DP).</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Apakah tersedia driver? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Tentu, kami menyediakan driver berpengalaman yang ramah dan menguasai jalan.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Bisa antar jemput mobil? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Ya, layanan gratis antar jemput unit berlaku untuk area dalam kota dengan durasi sewa minimal 3 hari.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Bagaimana cara booking? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Anda bisa booking melalui form di website ini atau langsung chat WhatsApp kami untuk ketersediaan unit.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Metode pembayaran apa saja? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer">Kami menerima transfer Bank (BCA, Mandiri, BRI) dan E-Wallet (OVO, GoPay, Dana).</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="booking reveal">
+        <div class="container">
+            <div class="booking-form">
+                <div class="section-header">
+                    <h2>Booking Sekarang</h2>
+                    <p>Isi form di bawah, kami akan proses via WhatsApp</p>
+                </div>
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label>Nama Lengkap</label>
+                        <input type="text" id="bookingName" class="form-control" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Nomor HP</label>
+                        <input type="tel" id="bookingPhone" class="form-control" placeholder="08xx..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Pilih Mobil</label>
+                        <select id="bookingCar" class="form-control" required>
+                            <option value="">-- Pilih Unit --</option>
+                            <!-- Options populated by JS -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Rental</label>
+                        <input type="date" id="bookingDate" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Durasi (Hari)</label>
+                        <input type="number" id="bookingDuration" class="form-control" min="1" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Catatan Tambahan</label>
+                        <textarea id="bookingNotes" class="form-control" rows="3" placeholder="Alamat jemput, kebutuhan khusus, dll"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fa-brands fa-whatsapp"></i> Booking via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="margin-bottom: 20px;">
+                        <i class="fa-solid fa-car-side"></i> 3R<span>RENTCAR</span>
+                    </a>
+                    <p>Solusi rental mobil terbaik untuk perjalanan bisnis, wisata, dan keluarga Anda. Aman, Nyaman, Terpercaya.</p>
+                    <div class="social-icons" style="margin-top: 20px;">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Menu</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#armada">Armada</a></li>
+                        <li><a href="#harga">Harga</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Kontak Kami</h3>
+                    <ul class="footer-links">
+                        <li><i class="fa-brands fa-whatsapp"></i> 085255275733</li>
+                        <li><i class="fa-solid fa-location-dot"></i> jl. penjernihan 3 blok c no 22 kota makassar,kel. karampuang,kec.panakukang kota makassar, sulawesi selatan</li>
+                        <li><i class="fa-solid fa-clock"></i> Jam Operasional: 24 Jam</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+              © 2026 3R RENTCAR. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6285255275733?text=Halo%203RRENTCAR,%20saya%20tertarik%20untuk%20sewa%20mobil" class="float-wa" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal Unit Detail -->
+    <div id="carModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-img-container">
+                <img id="modalImg" src="" alt="Detail Mobil">
+            </div>
+            <div class="modal-details">
+                <h2 id="modalTitle" style="color: var(--primary-green);">Mobil</h2>
+                <h4 id="modalSubtitle">Tahun 2024</h4>
+                
+                <ul class="detail-list">
+                    <li><i class="fa-solid fa-users"></i> Kapasitas: <span id="modalCap"></span> Orang</li>
+                    <li><i class="fa-solid fa-gear"></i> Transmisi: <span id="modalTrans"></span></li>
+                    <li><i class="fa-solid fa-gas-pump"></i> Bahan Bakar: <span id="modalFuel"></span></li>
+                    <li><i class="fa-solid fa-suitcase"></i> Bagasi: Luas</li>
+                    <li><i class="fa-solid fa-snowflake"></i> AC: Double Blower / Dingin</li>
+                </ul>
+
+
+
+                <div style="margin-top: 30px;">
+                    <a href="#" id="modalWaLink" class="btn btn-primary" style="width: 100%; text-align: center;">
+                        Booking Unit Ini Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Data Unit Mobil (17 Unit)
+        const cars = [
+            { id: 1, name: "All New BRV", year: "MPV", price: 400000, cap: 7, trans: "Matic", fuel: "Bensin", img: "brv2024.jpg" },
+            { id: 2, name: "All New City RS",  year: "City Car", price: 450000, cap: 5, trans: "Matic", fuel: "Bensin", img: "cityy.jpg" },
+            { id: 3, name: "All New Avanza", year: "MPV", price: 400000, cap: 7, trans: "Matic", fuel: "Bensin", img: "avanza.jpg" },
+            { id: 4, name: "Toyota Innova Reborn", year: "MPV", price: 500000, cap: 7, trans: "Matic", fuel: "Diesel", img: "innova.jpg" },
+            { id: 5, name: "Toyota Innova Zenix Non HV", year: "MPV", price: 750000, cap: 7, trans: "Matic", fuel: "Bensin", img: "zenix.jpg" },
+            { id: 6, name: "Honda Brio", year: "City Car", price: 275000, cap: 5, trans: "Manual", fuel: "Bensin", img: "brio old.jpg" },
+            { id: 7, name: "Honda New Brio", year: "City Car", price: 350000, cap: 7, trans: "Matic", fuel: "Bensin", img: "brio.jpg" },
+            { id: 8, name: "All New Innova Zenix Q HV", year: "MPV", price: 850000, cap: 7, trans: "Matic", fuel: "Bensin", img: "innovazenix.jpg" },
+            { id: 9, name: "All New Veloz", year: "MPV", price: 450000, cap: 7, trans: "Matic", fuel: "Bensin", img: "veloz.jpg" },
+            { id: 10, name: "All New XL7", year: "MPV", price: 400000, cap: 7, trans: "Matic", fuel: "Bensin", img: "xl7.jpg" },
+            { id: 11, name: "Fortuner", year: "SUV", price: 1200000, cap: 7, trans: "Matic", fuel: "Solar", img: "fortuner gr.jpg" },
+            { id: 12, name: "Pajero Sport", year: "SUV", price: 1200000, cap: 7, trans: "Matic", fuel: "Solar", img: "pajero.jpg" },
+            { id: 13, name: "Hiace Commuter", year: "MPV", price: 1500000, cap: 14, trans: "Manual", fuel: "Solar", img: "hiace.jpg" },
+            { id: 14, name: "Hiace Premio", year: "MPV", price: 1700000, cap: 14, trans: "Manual", fuel: "Solar", img: "premio.jpg" },
+            { id: 15, name: "New Alphard", year: "MPV", price: 2500000, cap: 7, trans: "Matic", fuel: "Bensin", img: "alpadold.jpg" },
+            { id: 16, name: "New Alphard Gen 4", year: "MPV", price: 3500000, cap: 7, trans: "Matic", fuel: "Bensin", img: "alpad2025.jpg" },
+        ];
+
+        // Format Rupiah
+        const formatRupiah = (number) => {
+            return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(number);
+        }
+
+        // Render Armada
+        const fleetGrid = document.getElementById('fleetGrid');
+        const bookingCarSelect = document.getElementById('bookingCar');
+
+        cars.forEach(car => {
+            // Populate Booking Select
+            const option = document.createElement('option');
+            option.value = car.name;
+            option.text = `${car.name} (${formatRupiah(car.price)}/hari)`;
+            bookingCarSelect.appendChild(option);
+
+            // Populate Card
+            const card = document.createElement('div');
+            card.className = 'car-card';
+            card.innerHTML = `
+                <div class="car-image">
+                    <img src="${car.img}" alt="${car.name}">
+                    <div class="car-badge">Tersedia</div>
+                </div>
+                <div class="car-info">
+                    <h3 class="car-title">${car.name} ${car.year}</h3>
+                    <div class="car-price">${formatRupiah(car.price)} <span style="font-size: 0.8em; color: #888;">/hari</span></div>
+                    <div class="car-specs">
+                        <span><i class="fa-solid fa-users"></i> ${car.cap}</span>
+                        <span><i class="fa-solid fa-gear"></i> ${car.trans}</span>
+                        <span><i class="fa-solid fa-gas-pump"></i> ${car.fuel}</span>
+                    </div>
+                    <button class="btn btn-outline" style="width:100%" onclick="openModal(${car.id})">Lihat Detail & Booking</button>
+                </div>
+            `;
+            fleetGrid.appendChild(card);
+        });
+
+        // Render Testimoni (10 Dummy)
+        const testimonials = [
+            {name: "Budi Santoso", review: "Pelayanan sangat memuaskan, mobil bersih dan wangi. Driver juga sopan."},
+            {name: "Siti Aminah", review: "Sewa alphard untuk pernikahan keluarga, kondisi mobil prima terawat. Mantap!"},
+            {name: "Andi Wijaya", review: "Proses booking mudah via WA, harga transparan tanpa biaya tambahan."},
+            {name: "Rina Marlina", review: "Lepas kuncinya syaratnya gampang banget, mobil avanza baru nyaman."},
+            {name: "Joko Anwar", review: "Driver sangat hafal jalan, tidak nyasar sama sekali. Recommended!"},
+            {name: "Dewi Persik", review: "Tepat waktu pengantaran mobil. Sangat profesional 3RENTCAR."},
+            {name: "Fajar Nugraha", review: "Harga paling masuk akal di kota ini untuk kualitas mobil sebagus ini."},
+            {name: "Lestari Ayu", review: "Wisata keluarga jadi menyenangkan berkat mobil yang nyaman."},
+            {name: "Bambang Pamungkas", review: "Sewa Fortuner untuk dinas kantor, tamu kantor saya sangat puas."},
+            {name: "Citra Kirana", review: "Admin fast respon, ramah. Mobil bersih luar dalam."}
+        ];
+        const testimonialGrid = document.getElementById('testimonialGrid');
+        testimonials.forEach(t => {
+            const div = document.createElement('div');
+            div.className = 'testimonial-card';
+            div.innerHTML = `
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"${t.review}"</p>
+                <div class="client-info">
+                    <img src="https://picsum.photos/seed/${t.name.replace(' ','')}/100/100" class="client-avatar" alt="${t.name}">
+                    <div>
+                        <strong>${t.name}</strong><br>
+                        <small style="color:var(--primary-green)">Pelanggan Setia</small>
+                    </div>
+                </div>
+            `;
+            testimonialGrid.appendChild(div);
+        });
+
+        // Modal Logic
+        const modal = document.getElementById('carModal');
+        const closeModal = document.querySelector('.close-modal');
+
+        window.openModal = (id) => {
+            const car = cars.find(c => c.id === id);
+            if(!car) return;
+
+            document.getElementById('modalImg').src = car.img;
+            document.getElementById('modalTitle').innerText = car.name;
+            document.getElementById('modalSubtitle').innerText = `Tahun ${car.year} - ${car.type}`;
+            document.getElementById('modalCap').innerText = car.cap;
+            document.getElementById('modalTrans').innerText = car.trans;
+            document.getElementById('modalFuel').innerText = car.fuel;
+            
+            // Tampilkan breakdown harga hanya jika elemen tersedia (hindari error 'Cannot set properties of null')
+            const priceDailyEl = document.getElementById('priceDaily');
+            const priceWeeklyEl = document.getElementById('priceWeekly');
+            const priceMonthlyEl = document.getElementById('priceMonthly');
+
+            if (priceDailyEl) priceDailyEl.innerText = formatRupiah(car.price);
+            if (priceWeeklyEl) priceWeeklyEl.innerText = formatRupiah(car.price * 6); // Estimasi hemat 1 hari
+            if (priceMonthlyEl) priceMonthlyEl.innerText = formatRupiah(car.price * 25); // Estimasi
+
+
+            const msg = `Halo 3R RENTCAR, saya ingin booking unit: ${car.name} (${car.year}). Mohon infonya.`;
+            document.getElementById('modalWaLink').href = `https://wa.me/6285255275733?text=${encodeURIComponent(msg)}`;
+
+            modal.style.display = "block";
+        }
+
+        closeModal.onclick = () => modal.style.display = "none";
+        window.onclick = (e) => { if(e.target == modal) modal.style.display = "none"; }
+
+        // Booking Form Logic
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('bookingName').value;
+            const phone = document.getElementById('bookingPhone').value;
+            const car = document.getElementById('bookingCar').value;
+            const date = document.getElementById('bookingDate').value;
+            const duration = document.getElementById('bookingDuration').value;
+            const notes = document.getElementById('bookingNotes').value;
+
+            const text = `Halo 3R RENTCAR, saya ingin booking mobil:\n\nNama: ${name}\nNo HP: ${phone}\nMobil: ${car}\nTanggal: ${date}\nDurasi: ${duration} Hari\nCatatan: ${notes}`;
+            
+            window.open(`https://wa.me/6285255275733?text=${encodeURIComponent(text)}`, '_blank');
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.querySelector('.faq-question').addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+
+        // Dark Mode & Navbar Scroll
+        const navbar = document.getElementById('navbar');
+        const themeToggle = document.getElementById('themeToggle');
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        window.addEventListener('scroll', () => {
+            if(window.scrollY > 50) navbar.classList.add('scrolled');
+            else navbar.classList.remove('scrolled');
+
+            // Scroll Reveal Animation
+            document.querySelectorAll('.reveal').forEach(el => {
+                const windowHeight = window.innerHeight;
+                const elementTop = el.getBoundingClientRect().top;
+                const elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    el.classList.add('active');
+                }
+            });
+        });
+
+        themeToggle.addEventListener('click', () => {
+            document.body.setAttribute('data-theme', document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+            themeToggle.innerHTML = document.body.getAttribute('data-theme') === 'dark' ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+        });
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Loading Screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const loader = document.getElementById('loader');
+                loader.style.opacity = '0';
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 500);
+            }, 1000);
+        });
+
+    </script>
+</body>
+</html>
